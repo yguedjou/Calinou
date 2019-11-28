@@ -53,8 +53,8 @@
 
 			<!-- href="#properties-section" -->
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a  href="#" class="nav-link">Accueil</a></li>
-                <li><a  href="AjoutClient.html" class="nav-link">Ajouter un client</a></li>
+                <li><a  href="index.html" class="nav-link">Accueil</a></li>
+                <li><a  href="#" class="nav-link">Ajouter contact</a></li>
                 <li><a  class="nav-link">Liste des clients</a></li>
                 <li><a  class="nav-link">Prise de rendez-vous</a></li>
                 <li><a class="nav-link">Prise de commande</a></li>
@@ -80,26 +80,79 @@
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-6 mt-lg-5 text-center">
-              <h1 class="text-shadow"> Welcome to Calinou CRM application </h1>
-              <p class="mb-5 text-shadow"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quam doloribus reprehenderit dolore adipisci rerum </p>
-             <!-- <p><a href="#" target="_blank" class="btn btn-primary px-5 py-3">Get Started</a></p>-->
               
+			  
+			  
+			  <!-- Formulaire -->
+
+				<form name="mon8formulaire" action="AjoutClient.html" method="get">
+				<p>
+					<input type="radio" name="civi" value="Mme" /> Madame
+					<input type="radio" name="civi" value="Mlle" /> Mademoiselle
+					<input type="radio" name="civi" value="Mr" /> Monsieur
+				</p>
+				<p>
+					Prénom :<br />
+					<input type="text" name="prenom" value="" />
+				</p>
+				<p>
+					Nom :<br />
+					<input type="text" name="nom" value="" />
+				</p>
+				<p>
+					Entreprise :<br />
+					<input type="text" name="Entreprise" value="" />
+				</p>
+	
+				<p>
+					Vous êtes<br />
+					<select name="profil">
+						<option value="parti">Un particulier</option>
+						<option value="profe" selected="selected">Un professionnel</option>
+						<option value="insti">Un institutionnel</option>
+					</select>
+				</p>
+				<p>
+					Quel type de prestation recherchez vous ?<br />
+					<input type="checkbox" name="interet" value="loc" /> Location de mobilier
+					<input type="checkbox" name="interet" value="achat" /> Achat de mobilier
+				</p>
+				<p>
+					Votre message :<br />
+					<textarea name="le-message" rows="6" cols="40">Vous pouvez saisir ici un message.</textarea>
+				</p>
+				<p>
+					<input type="submit" value="Envoyer" />
+					<input type="reset" value="Annuler" />
+				</p>
+				</form>		
+			  
+			  
+			  
+			  
             </div>
           </div>
         </div>
+		
+		
   
         
       </div>  
   
-      <div class="site-blocks-cover overlay overlay-2" style="background-image: url(images/crm1.jpg);" data-aos="fade" id="home-section">
+     <!-- <div class="site-blocks-cover overlay overlay-2" style="background-image: url(images/crm1.jpg);" data-aos="fade" id="home-section">
   
   
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-6 mt-lg-5 text-center">
-              <h1 class="text-shadow">Calinou CRM Application</h1>
-              <p class="mb-5 text-shadow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quam doloribus reprehenderit dolore adipisci rerum?</p>
-              <p><a href="#" target="_blank" class="btn btn-primary px-5 py-3">Get Started</a></p>
+			
+			
+			
+			
+			
+			
+			
+         
               
             </div>
           </div>
@@ -107,7 +160,7 @@
   
         
       </div>  
-    </div>   
+    </div>   -->
     
   </div>      
 
