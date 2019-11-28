@@ -1894,3 +1894,27 @@ h1, h2, h3, h4, h5,
     @media (max-width: 991.98px) {
       .first-step:after, .second-step:after {
         display: none; } }
+		
+		
+		
+		
+		
+thead th, tfoot th {
+  font-family: 'Rock Salt', cursive;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
